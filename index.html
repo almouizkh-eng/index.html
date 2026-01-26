@@ -2,146 +2,199 @@
 <html lang="ar">
 <head>
 <meta charset="UTF-8">
-<title>الشروط والأحكام</title>
+<title>Terms & Conditions</title>
+
+<style>
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    background: #ffffff;
+    max-width: 900px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+/* Language selection */
+.lang-select {
+    text-align: center;
+}
+
+.lang-select h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.lang-select button {
+    font-size: 18px;
+    padding: 10px 25px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: #2c7be5;
+    color: #fff;
+}
+
+.lang-select button:hover {
+    background-color: #1a5fb4;
+}
+
+/* Arabic Terms */
+#arabic {
+    display: none;
+    direction: rtl;
+    font-family: "Sakkal Majalla", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* English Terms */
+#english {
+    display: none;
+    direction: ltr;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+}
+</style>
 </head>
 
-<body dir="rtl" style="font-family:Arial, Tahoma; line-height:1.9; margin:40px">
+<body>
 
-<h2>الشروط والأحكام</h2>
+<div class="container">
 
-<p>
-شركة مصنع سلطان صالح أبو هلال للرخام والحجر<br>
-سجل تجاري رقم: 2050077578
-</p>
+    <!-- Language Choice -->
+    <div class="lang-select" id="language">
+        <h2>CHOOSE LANGUAGE</h2>
+        <button onclick="showArabic()">عربي</button>
+        <button onclick="showEnglish()">English</button>
+    </div>
 
-<p>
-يُعدّ توقيع العميل أو شروعه في الطلب أو السداد أو اعتماد العرض أو التنفيذ أو الاستفادة من أي خدمة مقدمة من الشركة، موافقةً صريحة ونهائية وملزمة على جميع الشروط والأحكام الواردة في هذه الصفحة، دون أدنى اعتراض حالي أو مستقبلي.
-</p>
+    <!-- Arabic Terms -->
+    <div id="arabic">
+        <h3>الشروط والأحكام</h3>
 
-<h3>أولًا: نطاق العمل</h3>
-<p>
-تختص الشركة بتوريد وتصنيع وتركيب الرخام والجرانيت والحجر الطبيعي والصناعي وجميع الأعمال المرتبطة بها وفق المواصفات المعتمدة كتابيًا فقط.
-</p>
-<p>
-لا يُعتد بأي اتفاقات شفهية أو مراسلات غير معتمدة رسميًا من قبل الشركة.
-</p>
-<p>
-أي أعمال أو تعديلات أو إضافات غير مذكورة صراحة في العرض أو العقد تُعدّ أعمالًا إضافية ويتم تنفيذها وتسعيرها بموجب عرض مستقل.
-</p>
+        يُعدّ توقيع العميل أو شروعه في الطلب أو السداد أو التنفيذ موافقةً صريحة ونهائية على جميع الشروط والأحكام الواردة أدناه دون أي اعتراض لاحقًا.
 
-<h3>ثانيًا: الأسعار والدفع</h3>
-<p>
-جميع الأسعار المعتمدة هي الواردة في العرض أو العقد المصدق من الطرفين، ولا تشمل أي أعمال إضافية ما لم يُنص عليها صراحة.
-</p>
-<p>
-يلتزم العميل بسداد الدفعة المقدمة المتفق عليها قبل البدء في التوريد أو القص أو التصنيع أو التركيب.
-</p>
-<p>
-يحق للشركة تعليق أو إيقاف الأعمال كليًا أو جزئيًا في حال تأخر العميل عن السداد دون أي مسؤولية قانونية أو تعويضات.
-</p>
-<p>
-جميع المبالغ المدفوعة غير قابلة للاسترداد إلا وفق ما تحدده هذه الشروط ووفق تقدير الشركة.
-</p>
+        <h3>أولًا: نطاق العمل</h3>
+        تلتزم شركة مصنع سلطان صالح أبو هلال للرخام والحجر (سجل تجاري رقم 2050077578) بتوريد وتركيب الرخام والجرانيت وفق المواصفات المتفق عليها كتابيًا فقط.
+        أي أعمال أو تعديلات غير مذكورة صراحة تُعد أعمالًا إضافية ويتم تسعيرها بشكل مستقل.
 
-<h3>ثالثًا: المواد والخامات</h3>
-<p>
-الرخام والجرانيت والحجر مواد طبيعية، ويُقرّ العميل بعلمه الكامل بإمكانية وجود اختلافات طبيعية في اللون أو العروق أو النقش أو السماكة، ولا تُعدّ هذه الاختلافات عيبًا أو سببًا للرفض أو المطالبة.
-</p>
-<p>
-جميع العينات المعروضة هي عينات إرشادية فقط.
-</p>
-<p>
-لا يحق للعميل رفض الخامة أو المطالبة بتغييرها بعد بدء القص أو التصنيع أو التركيب.
-</p>
+        <h3>ثانيًا: الأسعار والدفع</h3>
+        الأسعار المعتمدة هي الواردة في العرض أو العقد.
+        يلتزم العميل بسداد الدفعة المقدمة قبل البدء في أي أعمال.
+        يحق للشركة إيقاف العمل دون أي مسؤولية في حال التأخر عن السداد.
 
-<h3>رابعًا: المقاسات والمخططات</h3>
-<p>
-المقاسات المعتمدة هي المقاسات المأخوذة أو المعتمدة من قبل الشركة.
-</p>
-<p>
-أي خطأ ناتج عن مقاسات أو مخططات مقدمة من العميل أو من جهات أخرى لا تتحمل الشركة مسؤوليته.
-</p>
+        <h3>ثالثًا: المواد والخامات</h3>
+        الرخام والجرانيت مواد طبيعية وقد توجد فروقات طبيعية في اللون أو العروق.
+        لا تقبل أي مطالبات بعد بدء القص أو التركيب.
 
-<h3>خامسًا: التنفيذ والتركيب</h3>
-<p>
-يلتزم العميل بتجهيز الموقع بالكامل قبل موعد التركيب من حيث الجاهزية الإنشائية والكهربائية والسباكة.
-</p>
-<p>
-أي تأخير ناتج عن عدم جاهزية الموقع لا تتحمل الشركة مسؤوليته ويحق لها إعادة الجدولة أو فرض رسوم إضافية.
-</p>
-<p>
-الشركة غير مسؤولة عن أي أضرار ناتجة عن أرضيات أو جدران غير مستوية أو أخطاء إنشائية أو أعمال جهات أخرى.
-</p>
+        <h3>رابعًا: التنفيذ والتركيب</h3>
+        يلتزم العميل بتجهيز الموقع.
+        لا تتحمل الشركة أي أضرار ناتجة عن أخطاء إنشائية أو أعمال جهات أخرى.
 
-<h3>سادسًا: الاستلام والاعتراض</h3>
-<p>
-يتم الاستلام فور الانتهاء من التركيب.
-</p>
-<p>
-يجب على العميل فحص الأعمال فورًا، وأي استخدام لاحق يُعد قبولًا نهائيًا غير قابل للطعن.
-</p>
-<p>
-لا يُقبل أي اعتراض بعد الاستلام أو بعد مرور 24 ساعة من تاريخ الانتهاء.
-</p>
+        <h3>خامسًا: الاستلام</h3>
+        يتم الاستلام فور الانتهاء.
+        أي استخدام لاحق يُعد قبولًا نهائيًا.
 
-<h3>سابعًا: الإلغاء والاسترجاع</h3>
-<p>
-في حال إلغاء الطلب بعد اعتماد المقاسات أو بدء التصنيع، يحق للشركة خصم كامل التكاليف أو عدم إعادة أي مبالغ مدفوعة.
-</p>
-<p>
-لا يحق للعميل المطالبة باسترجاع أي مبالغ عن مواد صُنّعت أو وُرّدت خصيصًا له.
-</p>
-<p>
-في حال ثبوت استحقاق العميل لمبلغ مسترد وبموافقة خطية من الشركة فقط، يتم تحويل المبلغ خلال مدة لا تتجاوز <strong>3 أيام عمل</strong>.
-</p>
+        <h3>سادسًا: الإلغاء والاسترجاع</h3>
+        في حال طلب استرجاع أي مبلغ مستحق ومعتمد، يتم التحويل خلال مدة لا تتجاوز **3 أيام عمل**.
+        لا يحق للعميل المطالبة باسترجاع المبالغ الخاصة بالمواد المصنّعة أو المورّدة خصيصًا له.
 
-<h3>ثامنًا: الضمان والمسؤولية</h3>
-<p>
-الضمان – إن وجد – يقتصر على عيوب التركيب فقط.
-</p>
-<p>
-لا يشمل الضمان سوء الاستخدام أو الكسر أو الصدمات أو المواد الكيميائية أو الأعمال اللاحقة من طرف ثالث.
-</p>
-<p>
-لا تتحمل الشركة أي خسائر غير مباشرة أو أضرار تبعية أو مطالبات مستقبلية.
-</p>
+        <h3>سابعًا: الضمان</h3>
+        لا يشمل الضمان سوء الاستخدام أو الكسر أو المواد الكيميائية.
+        تقتصر مسؤولية الشركة على إصلاح الخلل الناتج عن التركيب فقط.
 
-<h3>تاسعًا: التأخير والقوة القاهرة</h3>
-<p>
-لا تتحمل الشركة أي تأخير أو عدم تنفيذ ناتج عن ظروف خارجة عن إرادتها مثل: تأخر التوريد، الظروف المناخية، الإضرابات، القرارات الحكومية، أو أي أسباب قاهرة.
-</p>
+        <h3>ثامنًا: القوة القاهرة</h3>
+        لا تتحمل الشركة أي تأخير ناتج عن ظروف خارجة عن إرادتها.
 
-<h3>عاشرًا: الملكية والمسؤولية</h3>
-<p>
-تبقى جميع المواد مملوكة للشركة حتى سداد كامل المستحقات.
-</p>
-<p>
-لا يحق للعميل التصرف أو النقل أو التعديل قبل السداد الكامل.
-</p>
+        <h3>تاسعًا: النزاعات</h3>
+        تخضع هذه الشروط لأنظمة وقوانين المملكة العربية السعودية.
+        يكون الاختصاص القضائي لمحاكم مقر الشركة.
 
-<h3>حادي عشر: النزاعات والاختصاص</h3>
-<p>
-تخضع هذه الشروط لأنظمة وقوانين المملكة العربية السعودية.
-</p>
-<p>
-يكون الاختصاص القضائي للمحاكم المختصة في مقر الشركة.
-</p>
+        <h3>إقرار</h3>
+        أقرّ أنا العميل بالاطلاع الكامل على هذه الشروط والأحكام وموافقتي عليها دون تحفظ.
+    </div>
 
-<h3>ثاني عشر: أحكام عامة</h3>
-<p>
-تحتفظ الشركة بحق تعديل أو تحديث هذه الشروط والأحكام في أي وقت دون إشعار مسبق.
-</p>
-<p>
-عدم مطالبة الشركة بأي حق في وقتٍ ما لا يُعدّ تنازلًا عنه.
-</p>
-<p>
-في حال تعارض أي بند، يُعمل بما يحفظ حقوق الشركة أولًا.
-</p>
+    <!-- English Terms -->
+    <div id="english">
+        <h3>Terms and Conditions</h3>
 
-<h3>إقرار</h3>
-<p>
-أُقرّ أنا العميل بالاطلاع الكامل على هذه الشروط والأحكام وفهمها والموافقة عليها دون تحفظ، وأتحمل كامل المسؤولية النظامية المترتبة عليها.
-</p>
+        By proceeding with any request, payment, or execution, the client confirms full and final acceptance of all terms and conditions stated herein.
+
+        <h3>1. Scope of Work</h3>
+        Sultan Saleh Abu Hilal Marble & Stone Factory (CR No. 2050077578) shall supply and install marble and granite strictly according to written agreements only.
+        Any additional work shall be priced separately.
+
+        <h3>2. Pricing & Payment</h3>
+        Prices are valid as per the approved quotation or contract.
+        Advance payment is mandatory prior to commencement.
+        The company reserves the right to stop work in case of delayed payment.
+
+        <h3>3. Materials</h3>
+        Marble and granite are natural materials; variations in color and veins are natural and acceptable.
+        No claims shall be accepted after cutting or installation.
+
+        <h3>4. Installation</h3>
+        The client must ensure site readiness.
+        The company is not responsible for structural or third-party defects.
+
+        <h3>5. Acceptance</h3>
+        Acceptance is deemed upon completion.
+        Any usage constitutes final approval.
+
+        <h3>6. Cancellation & Refund</h3>
+        Any approved refund shall be processed within **3 working days**.
+        No refunds apply to custom-made or specially ordered materials.
+
+        <h3>7. Warranty</h3>
+        Warranty excludes misuse, breakage, chemicals, or third-party works.
+        Liability is limited to installation defects only.
+
+        <h3>8. Force Majeure</h3>
+        The company is not liable for delays beyond its control.
+
+        <h3>9. Jurisdiction</h3>
+        These terms are governed by the laws of the Kingdom of Saudi Arabia.
+        Courts at the company’s location shall have exclusive jurisdiction.
+
+        <h3>Declaration</h3>
+        The client confirms having read and accepted all terms without reservation.
+    </div>
+
+    <div class="footer">
+        © Sultan Saleh Abu Hilal Marble & Stone Factory
+    </div>
+
+</div>
+
+<script>
+function showArabic() {
+    document.getElementById("language").style.display = "none";
+    document.getElementById("arabic").style.display = "block";
+}
+
+function showEnglish() {
+    document.getElementById("language").style.display = "none";
+    document.getElementById("english").style.display = "block";
+}
+</script>
 
 </body>
 </html>

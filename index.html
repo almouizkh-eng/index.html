@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>Terms & Conditions</title>
@@ -10,28 +10,29 @@ body {
     padding: 20px;
 }
 
+/* Container */
 .container {
     background: #ffffff;
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
-    padding: 25px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 12px rgba(0,0,0,0.15);
 }
 
 /* Language selection */
-.lang-select {
+#language {
     text-align: center;
 }
 
-.lang-select h2 {
+#language h2 {
     font-size: 26px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
-.lang-select button {
+#language button {
     font-size: 18px;
-    padding: 10px 25px;
+    padding: 12px 30px;
     margin: 10px;
     cursor: pointer;
     border: none;
@@ -40,34 +41,34 @@ body {
     color: #fff;
 }
 
-.lang-select button:hover {
+#language button:hover {
     background-color: #1a5fb4;
 }
 
-/* Arabic Terms */
+/* Arabic */
 #arabic {
     display: none;
     direction: rtl;
     font-family: "Sakkal Majalla", Arial, sans-serif;
     font-size: 15px;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
-/* English Terms */
+/* English */
 #english {
     display: none;
     direction: ltr;
     font-family: Arial, sans-serif;
     font-size: 15px;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 h3 {
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .footer {
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: center;
     font-size: 13px;
     color: #666;
@@ -79,8 +80,8 @@ h3 {
 
 <div class="container">
 
-    <!-- Language Choice -->
-    <div class="lang-select" id="language">
+    <!-- Choose Language -->
+    <div id="language">
         <h2>CHOOSE LANGUAGE</h2>
         <button onclick="showArabic()">عربي</button>
         <button onclick="showEnglish()">English</button>
@@ -90,96 +91,115 @@ h3 {
     <div id="arabic">
         <h3>الشروط والأحكام</h3>
 
-        يُعدّ توقيع العميل أو شروعه في الطلب أو السداد أو التنفيذ موافقةً صريحة ونهائية على جميع الشروط والأحكام الواردة أدناه دون أي اعتراض لاحقًا.
+        يُعدّ توقيع العميل أو شروعه في الطلب أو السداد أو التنفيذ موافقةً صريحة ونهائية على جميع الشروط والأحكام الواردة أدناه، دون أدنى اعتراض لاحقًا، وتُعدّ هذه الموافقة ملزمة للطرفين.
 
         <h3>أولًا: نطاق العمل</h3>
-        تلتزم شركة مصنع سلطان صالح أبو هلال للرخام والحجر (سجل تجاري رقم 2050077578) بتوريد وتركيب الرخام والجرانيت وفق المواصفات المتفق عليها كتابيًا فقط.
-        أي أعمال أو تعديلات غير مذكورة صراحة تُعد أعمالًا إضافية ويتم تسعيرها بشكل مستقل.
+        تلتزم الشركة بتوريد وتركيب الرخام والجرانيت وفق المواصفات المتفق عليها كتابيًا فقط. أي أعمال أو تعديلات غير مذكورة صراحة في العرض أو العقد تُعدّ أعمالًا إضافية ويتم تسعيرها بشكل مستقل. ولا تتحمل الشركة مسؤولية أي وعود أو اتفاقات شفهية غير موثقة.
 
         <h3>ثانيًا: الأسعار والدفع</h3>
-        الأسعار المعتمدة هي الواردة في العرض أو العقد.
-        يلتزم العميل بسداد الدفعة المقدمة قبل البدء في أي أعمال.
-        يحق للشركة إيقاف العمل دون أي مسؤولية في حال التأخر عن السداد.
+        الأسعار المعتمدة هي الواردة في العرض أو العقد، ولا تشمل أي أعمال إضافية ما لم يُنص عليها صراحة.
+        <br><br>
+        يلتزم العميل بسداد الدفعة المقدمة قبل البدء في التوريد أو التصنيع أو التركيب.
+        <br><br>
+        لا يتم البدء أو الاستمرار في العمل في حال تأخر العميل عن السداد لأي سبب.
+        <br><br>
+        يحق للشركة إيقاف العمل مؤقتًا أو نهائيًا في حال عدم الالتزام بمواعيد الدفع دون أي مسؤولية.
+        <br><br>
+        في حال تأخر العميل عن السداد بعد بدء العمل، يحق للشركة فرض غرامات تأخير أو المطالبة بتعويضات عن أي خسائر ناتجة.
 
         <h3>ثالثًا: المواد والخامات</h3>
-        الرخام والجرانيت مواد طبيعية وقد توجد فروقات طبيعية في اللون أو العروق.
-        لا تقبل أي مطالبات بعد بدء القص أو التركيب.
+        الرخام والجرانيت مواد طبيعية، ويُقرّ العميل بإمكانية وجود اختلافات طبيعية في اللون أو العروق أو النقش. العينات المعروضة هي للتوضيح فقط وقد يختلف المنتج النهائي اختلافًا طبيعيًا لا يُعدّ سببًا للرفض. ولا تقبل الشركة أي اعتراض بعد بدء القص أو التصنيع أو التركيب.
 
         <h3>رابعًا: التنفيذ والتركيب</h3>
-        يلتزم العميل بتجهيز الموقع.
-        لا تتحمل الشركة أي أضرار ناتجة عن أخطاء إنشائية أو أعمال جهات أخرى.
+        يلتزم العميل بتجهيز الموقع بالكامل قبل موعد التركيب.
+        <br><br>
+        أي تأخير ناتج عن عدم جاهزية الموقع لا تتحمل الشركة مسؤوليته، ويحق لها إعادة الجدولة أو فرض رسوم إضافية.
+        <br><br>
+        الشركة غير مسؤولة عن أي أضرار ناتجة عن أخطاء إنشائية أو أرضيات غير مستوية أو أعمال جهات أخرى.
+        <br><br>
+        يلتزم العميل بتوفير الكهرباء والماء وإتاحة الموقع للفنيين.
 
-        <h3>خامسًا: الاستلام</h3>
-        يتم الاستلام فور الانتهاء.
-        أي استخدام لاحق يُعد قبولًا نهائيًا.
+        <h3>خامسًا: الاستلام والاعتراض</h3>
+        يتم الاستلام فور الانتهاء من التركيب، ويجب على العميل فحص العمل.
+        <br><br>
+        أي استخدام لاحق يُعدّ قبولًا نهائيًا للعمل.
+        <br><br>
+        لا يُقبل أي اعتراض بعد الاستلام أو بعد مرور 24 ساعة من تاريخ الانتهاء.
+        <br><br>
+        في حال رفض العميل الاستلام دون مبرر، يُعدّ العمل مقبولًا حكميًا.
 
         <h3>سادسًا: الإلغاء والاسترجاع</h3>
-        في حال طلب استرجاع أي مبلغ مستحق ومعتمد، يتم التحويل خلال مدة لا تتجاوز **3 أيام عمل**.
-        لا يحق للعميل المطالبة باسترجاع المبالغ الخاصة بالمواد المصنّعة أو المورّدة خصيصًا له.
+        يحق للعميل استرجاع كامل قيمة الفاتورة في حال تم طلب الإرجاع خلال نفس يوم إصدار الفاتورة، وبشرط ألا يكون قد مضى على تاريخ إنشائها أكثر من 24 ساعة.
+        <br><br>
+        في حال طلب الإرجاع بعد مرور أكثر من 24 ساعة وحتى 3 أيام، يحق للشركة خصم 15% من قيمة الفاتورة مقابل خدمات المستودع والتجهيز والتشغيل.
+        <br><br>
+        أي بضاعة يتم طلب إرجاعها بعد مرور أكثر من 3 أيام، يحق للشركة خصم 50% من قيمة الفاتورة أو رفض الإرجاع نهائيًا وفق تقديرها.
+        <br><br>
+        أي بضاعة تم تركيبها كليًا أو جزئيًا لا تُقبل إعادتها نهائيًا.
+        <br><br>
+        تعتبر البضاعة مملوكة للشركة حتى السداد الكامل.
 
-        <h3>سابعًا: الضمان</h3>
-        لا يشمل الضمان سوء الاستخدام أو الكسر أو المواد الكيميائية.
-        تقتصر مسؤولية الشركة على إصلاح الخلل الناتج عن التركيب فقط.
+        <h3>سابعًا: الضمان والمسؤولية</h3>
+        الضمان يشمل التركيب فقط، ولا يشمل سوء الاستخدام أو الكسر أو الصدمات أو المواد الكيميائية أو أعمال طرف ثالث.
 
         <h3>ثامنًا: القوة القاهرة</h3>
-        لا تتحمل الشركة أي تأخير ناتج عن ظروف خارجة عن إرادتها.
+        لا تتحمل الشركة أي تأخير أو عدم تنفيذ ناتج عن ظروف خارجة عن إرادتها.
 
-        <h3>تاسعًا: النزاعات</h3>
+        <h3>تاسعًا: النزاعات والاختصاص</h3>
         تخضع هذه الشروط لأنظمة وقوانين المملكة العربية السعودية.
-        يكون الاختصاص القضائي لمحاكم مقر الشركة.
+
+        <h3>عاشرًا: أحكام عامة</h3>
+        تعتبر هذه الشروط ملزمة ونهائية.
+        <br><br>
+        يحق للشركة استخدام صور أو فيديوهات للمشاريع لأغراض التوثيق أو التسويق.
 
         <h3>إقرار</h3>
-        أقرّ أنا العميل بالاطلاع الكامل على هذه الشروط والأحكام وموافقتي عليها دون تحفظ.
+        أُقرّ أنا العميل بالاطلاع الكامل على هذه الشروط والأحكام وموافقتي عليها دون تحفظ.
     </div>
 
     <!-- English Terms -->
     <div id="english">
         <h3>Terms and Conditions</h3>
 
-        By proceeding with any request, payment, or execution, the client confirms full and final acceptance of all terms and conditions stated herein.
+        The client’s signature, or initiation of ordering, payment, or execution, constitutes an explicit and final acceptance of all terms and conditions stated below, without any objection thereafter. These terms are binding on both parties.
 
         <h3>1. Scope of Work</h3>
-        Sultan Saleh Abu Hilal Marble & Stone Factory (CR No. 2050077578) shall supply and install marble and granite strictly according to written agreements only.
-        Any additional work shall be priced separately.
+        The company is committed to supplying and installing marble and granite according to written specifications only. Any additional work shall be priced separately.
 
-        <h3>2. Pricing & Payment</h3>
-        Prices are valid as per the approved quotation or contract.
-        Advance payment is mandatory prior to commencement.
-        The company reserves the right to stop work in case of delayed payment.
+        <h3>2. Prices and Payment</h3>
+        Approved prices are those stated in the quotation or contract.
+        <br><br>
+        Advance payment is required before work begins.
+        <br><br>
+        Work may be suspended in case of delayed payment.
 
         <h3>3. Materials</h3>
-        Marble and granite are natural materials; variations in color and veins are natural and acceptable.
-        No claims shall be accepted after cutting or installation.
+        Marble and granite are natural materials and variations are acceptable.
 
         <h3>4. Installation</h3>
         The client must ensure site readiness.
-        The company is not responsible for structural or third-party defects.
 
         <h3>5. Acceptance</h3>
-        Acceptance is deemed upon completion.
-        Any usage constitutes final approval.
+        Use constitutes final acceptance.
 
-        <h3>6. Cancellation & Refund</h3>
-        Any approved refund shall be processed within **3 working days**.
-        No refunds apply to custom-made or specially ordered materials.
+        <h3>6. Cancellation and Returns</h3>
+        Refunds follow company policy.
 
         <h3>7. Warranty</h3>
-        Warranty excludes misuse, breakage, chemicals, or third-party works.
-        Liability is limited to installation defects only.
+        Warranty covers installation only.
 
         <h3>8. Force Majeure</h3>
-        The company is not liable for delays beyond its control.
+        The company is not responsible for force majeure events.
 
         <h3>9. Jurisdiction</h3>
-        These terms are governed by the laws of the Kingdom of Saudi Arabia.
-        Courts at the company’s location shall have exclusive jurisdiction.
+        Governed by the laws of the Kingdom of Saudi Arabia.
 
-        <h3>Declaration</h3>
-        The client confirms having read and accepted all terms without reservation.
+        <h3>Acknowledgment</h3>
+        The client acknowledges acceptance of all terms.
     </div>
 
     <div class="footer">
-        © Sultan Saleh Abu Hilal Marble & Stone Factory
+        © Company Terms & Conditions
     </div>
 
 </div>
